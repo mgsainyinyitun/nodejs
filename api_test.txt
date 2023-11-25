@@ -1,0 +1,28 @@
+### POST ###
+
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+    "username": "sainyi",
+    "password": "12345"
+}
+
+### GET ###
+
+GET http://localhost:3000/all
+
+
+### DELETE ###
+
+DELETE http://localhost:3000/user/johndoe4
+
+
+### PUT ###
+
+PUT http://localhost:3000/user/johndoe
+Content-Type: application/json
+
+{
+    "password": "12345"
+}
